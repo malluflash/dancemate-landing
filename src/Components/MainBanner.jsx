@@ -27,7 +27,6 @@ const MainBanner = () => {
 
       video.addEventListener('timeupdate', handleTimeUpdate);
 
-      // Cleanup the event listener if the component unmounts
       return () => {
         video.removeEventListener('timeupdate', handleTimeUpdate);
       };

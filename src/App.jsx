@@ -11,7 +11,6 @@ function App() {
       <Navbar />
       <MainBanner />
       <LoginForm />
-      {/* Additional sections can be added here */}
     </div>
   );
 }
