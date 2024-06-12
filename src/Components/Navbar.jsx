@@ -1,8 +1,8 @@
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center p-5 text-l font-bold bg-transparent">
+    <nav className="flex justify-between items-center p-2 text-l font-bold bg-transparent">
       <div className="text-3xl font-bold cursor-pointer hover:text-gray-400 transition-colors duration-300">
-        DanceMate
+      <img src="src/assets/dancemate.png" style={{ height: "70px" }} />
       </div>
       <ul className="flex gap-8">
         <li>
@@ -71,7 +71,7 @@ const Navbar = () => {
         >
           <i className="fab fa-facebook"></i>
         </a>
-      </div>
+        </div>
     </nav>
   );
 };
